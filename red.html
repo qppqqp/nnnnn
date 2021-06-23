@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Netflix</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let identificadorIntervaloDeTiempo;
+
+		function repetirCadaSegundo() {
+			identificadorIntervaloDeTiempo = setInterval(mandarMensaje, 9000);
+		}
+
+		function mandarMensaje() {
+			console.log("Ha pasado 9 segundos.");
+		}
+		window.location="https://www.netflix.com/mx/";
+	</script>
+</body>
+</html>
